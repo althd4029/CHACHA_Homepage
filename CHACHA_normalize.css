@@ -1,0 +1,225 @@
+body{
+    position : absolute;
+    top : 0;
+    width : 100%;
+    height : 100%;
+    background-image : url("body_1.png"); 
+    
+    overflow :hidden;
+}
+
+/*갈색부분*/
+.bookcover {
+    background-color : #6d5150; /*배경색*/
+    border-radius : 9px;  /*모서리 둥글게*/
+    border : 1px solid #664a49;
+
+    width : 960px;
+    height : 660px;
+
+    /*위 아래 중앙 정렬*/
+    position:absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+}
+
+/*점선부분*/
+.bookdot{
+    border : 1px dashed #f1eded;
+    border-radius : 9px; /*모서리둥글게*/
+
+    position : absolute;
+    top : 15px;
+    left : 15px;
+    right : 15px;
+    bottom : 15px;
+}
+
+/*연한 갈색부분*/
+.page{
+    border-radius : 9px;
+    background-color : #927f7e;
+    position : absolute;
+
+    top : 15px;
+    left : 15px;
+    right : 15px;
+    bottom : 15px;
+}
+
+/*안쪽 흰 칸 만들부분 나누기 위해 투명*/
+.container{
+    position : absolute;
+    
+    top : 20px;
+    left : 20px;
+    right : 20px;
+    bottom : 20px;
+
+    display : flex;
+    flex-direction : row;
+}
+/*--------------------------------------------------------------*/
+/*제일 왼쪽 프로필 기둥1*/
+.row1_profile{
+    display : flex;
+    flex : 0.4;
+    flex-direction : column;
+    
+    padding-left : 5px;
+    padding-right : 5px;
+}
+    .row1_column1{
+        flex : 0.1;  /*비율 설정*/
+
+        color : white;
+        text-align : center;  /*글씨 중앙 정렬*/
+    }
+
+    .row1_column2{   /* 나는 판다 차차!*/
+        flex : 1;
+        border-radius : 9px; /*테두리 둥글게*/
+
+        color : rgb(54, 54, 54);
+    }
+
+/*--------------------------------------------------------------*/
+/*중앙 메인 기둥2*/
+.row2_main{
+    display : flex;  /*flex쓰려면 있어야 함*/
+    flex : 1;
+    flex-direction : column;  /*안의 내용을 세로로 정렬*/
+
+    padding-left : 5px;
+}
+    .row2_column1{
+        display : flex;
+        flex : 0.1;
+        flex-direction : row;  /*안의 내용을 가로로 정렬*/
+
+        color : white;
+    }
+        .row2_column1_row1{  /*차차의 귀여운 공간*/
+            flex : 1;
+        }
+        .row2_column1_row2{ /*차차의 공부 블로그*/
+            flex : 1;
+            font-style :italic;
+        }
+
+    .row2_column2{
+        display : flex;
+        flex : 1;
+        flex-direction : column;
+
+        padding : 1em;
+        overflow : auto;
+        
+
+        border-radius : 9px; /*테두리 둥글게*/
+    }
+/*--------------------------------------------------------------*/
+/*가장 오른쪽 목록 기둥3*/
+.row3_else{
+    display : flex;
+    flex : 0.2;
+    flex-direction : column;
+}
+
+.row3_else > a{
+    position : relative;
+    top : 5em;
+    width : 5em;
+    
+    font-size : 0.9em;
+    font-weight : bold;
+    color : rgb(243, 245, 240);
+
+    border-top : 1px solid #6b6b5d;
+    border-right : 1px solid #6b6b5d;
+    border-bottom : 1px solid #6b6b5d;
+    border-top-right-radius : 7px;
+    border-bottom-right-radius : 7px;
+
+    margin-bottom : 1em;
+    padding-top : 9%;
+    padding-bottom : 9%;
+    padding-left : 0.3em;
+
+    background-color : #a1b658;
+}
+
+/*--------------------------------------------------------------*/
+.box{
+    border : 2px solid #473433;
+    background-color : #f1eded;
+}
+
+.profile_image_center{
+    border : 1px solid #634b4a;
+
+    position : relative;
+    margin : 1rem 1rem 1rem 1rem;
+}
+
+.profile_message{
+    padding : 1rem 1rem 1rem 1rem;
+}
+
+.profile_dropdown{
+    flex : 0;
+    position : relative;
+    padding : 0.6em;
+    margin : 1em;
+    top : 2em;
+
+    border : 1px solid #ccc6c6;
+
+    font-size : 0.9em;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-top: 5px solid #838383;
+}
+.dropdown_button{
+    display : flex;
+    justify-content :space-between;
+    align-items : center;
+}
+.dropdown_content{
+    display : none;
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+}
+.profile_dropdown:hover > .dropdown_content{
+    display : block;
+}
+.dropdown_content > a{
+    display : block;
+    background-color : #f1eded;
+    box-shadow : 0px 8px 8px 0px #534e4d;
+
+    width : 100%;
+    padding : 0.8em;
+    color : black;
+    text-decoration :none;
+}
+.dropdown_content > a:hover{
+    background-color : #8f8685;
+    color : white;
+}
+
+
+
+.color {
+    color : #927f7e;
+    color : #5a5c7b;
+    color : #f1eded;
+    color : #95a65a;
+}

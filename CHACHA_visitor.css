@@ -1,0 +1,107 @@
+.row2_column2{
+    display : flex;
+    flex : 1;
+    flex-direction : column;
+
+    padding-top :1em;
+    padding-bottom :1em;
+    padding-left : 0em;
+    padding-right : 0em;
+
+    overflow :hidden;
+    
+    border-radius : 9px; /*테두리 둥글게*/
+}
+
+/*
+padding-left :0%;
+    padding-right :0%;
+
+    overflow :hidden;
+    text-align :center;
+*/
+
+
+#scroll{
+    overflow :auto;
+    padding-left : 1em;
+    padding-right : 1em;
+}
+
+    .row2_column2_column1{
+        padding : 0.3em;
+    }
+    .row2_column2_column2{
+        display :flex;
+    }
+        .row2_column2_column2_row1{
+            flex :0.3;
+        }
+        .row2_column2_column2_row2{
+            top : 1.4rem;
+            flex :1;
+        }
+
+    .row2_column2_column3{
+        padding : 0.3em;
+    }
+    .row2_column2_column4{
+        display :flex;
+    }
+        .row2_column2_column4_row1{
+            flex :0.3;
+        }
+        .row2_column2_column4_row2{
+            flex :1;
+
+            top : 0.1rem;
+        }
+
+    .row2_column2_column5{
+        padding : 0.3em;
+    }
+    .row2_column2_column6{
+        display :flex;
+    }
+        .row2_column2_column6_row1{
+            flex :0.3;
+        }
+        .row2_column2_column6_row2{
+            flex :1;
+            
+            top:0.1rem;
+        }
+    
+
+.information{
+    font-size : 1.2em;
+    font-family: 'Do Hyeon', sans-serif;
+    background-color :#dad1d1;
+
+    border-top-left-radius : 6px;
+    border-top-right-radius : 6px;
+}
+
+.down_border{
+    border-left :5px solid #dad1d1;
+    border-right :5px solid #dad1d1;
+    border-bottom :5px solid #dad1d1;
+
+    border-bottom-left-radius : 6px;
+    border-bottom-right-radius : 6px;
+}
+
+.friend_image{
+    width : 140px;
+    height :140px;
+}
+
+.friend{
+    position : relative;
+
+
+    padding-left :1rem;
+
+    font-size :1.1rem;
+    font-family: 'Poor Story', cursive;
+}

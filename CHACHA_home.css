@@ -1,0 +1,55 @@
+.row2_column2_column1{  /*update news*/
+    flex : 0.2;
+}
+    .row2_column2_column1 p{
+        position : relative;
+        top : 0.5em;    
+    }
+.row2_column2_column2{  /*목록*/
+    display : flex;
+    flex : 0.4;
+    flex-direction : row;
+
+    font-size : 0.8em;
+
+}
+
+    .row2_column2_column2_row1{ /*사진첩*/
+        flex : 0.5;
+    }
+        
+        .row2_column2_column2_row1 p{
+            margin-block-start : 0.5em;
+            margin-block-end : 0em;
+        }
+    .row2_column2_column2_row2{ 
+        flex : 0.25;
+    }
+        .row2_column2_column2_row2 p{
+            margin-block-start : 0.5em;
+            margin-block-end : 0em;
+        }
+        
+    .row2_column2_column2_row3{
+        flex : 0.25;
+    }
+        .row2_column2_column2_row3 p{
+            margin-block-start : 0.5em;
+            margin-block-end : 0em;
+        }
+    
+.row2_column2_column3{  /*Miniroom*/
+    flex : 0.2;
+    
+}
+    .row2_column2_column3 p{
+        position : relative;
+        top : 0.5em;    
+    }
+
+.row2_column2_column4{
+    flex : 0.8;
+    background-color : blueviolet;
+
+    /*추후 그림 추가*/
+}

@@ -1,0 +1,46 @@
+.font_pool_story{
+    font-family: 'Poor Story', cursive;
+    font-size : 1.1em;
+}
+
+.font_Do_Hyeon{
+    font-family: 'Do Hyeon', sans-serif;
+}
+.font_Gaegu{
+    font-family: 'Gaegu', cursive;
+}
+
+.font_size_1_1rem{
+    font-size : 1.1rem;
+}
+
+.profile_message p{  /*profile_message 클래스 안에 있는 p*/
+    font-weight : bolder;
+    
+    margin-block-start : 0em;
+    margin-block-end: 0.5em;  /*p의 기본속성 지우기*/
+}
+
+#red_square{
+    color : white;
+    font-weight : bolder;
+
+    background : red;
+    border-radius : 3px;
+}
+
+#blue_square{
+    color : white;
+    font-weight : bolder;
+
+    background : blue;
+    border-radius : 3px;
+}
+
+#blue_font{
+    color : blue;
+}
+
+#red_font{
+    color :red;
+}

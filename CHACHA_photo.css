@@ -1,0 +1,38 @@
+.row2_column2 > #scroll > a{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size : 1.2em;
+    display :block;
+    
+    padding-top : 0.3em;
+    padding-bottom : 0.3em;
+
+    background-color : #dad1d1;
+}
+
+.row2_column2 > #scroll > p{
+    font-family: 'Gaegu', cursive;
+    font-size :1.1em;
+    font-weight : bold;
+    color : rgb(104, 92, 92);
+}
+
+.row2_column2.box > #scroll > img{
+    position : relative;
+    width :95%;
+    height :95%;
+    padding-top : 0.5rem;
+    padding-bottom : 0.5rem;
+}
+.row2_column2{
+    padding-left :0%;
+    padding-right :0%;
+
+    overflow :hidden;
+    text-align :center;
+}
+#scroll{
+    overflow :auto;
+
+    padding-left :1em;
+    padding-right : 1em;
+}
